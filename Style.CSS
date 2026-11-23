@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(lightcyan, lightblue);
+    min-height: 100vh;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+    text-shadow: 2px 2px white;
+}
+
+#aquarium {
+    max-width: 500px;
+    height: 300px;
+    background-color: skyblue;
+    border: 8px solid steelblue;
+    border-radius: 20px;
+    margin: 25px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+#fish {
+    margin-top: 45px;
+    transition: 0.5s;
+}
+
+#octopus {
+    display: none;
+    margin-left: 30px;
+}
+
+#message {
+    color: darkblue;
+    font-size: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
